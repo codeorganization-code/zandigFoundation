@@ -7306,7 +7306,7 @@ h1, h2, h3, h4, h5,
   background: #fff !important; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000 !important;
+      background: #fff  !important;
       top: 0;
       position: relative; } }
   .ftco-navbar-light .navbar-brand {
@@ -8488,7 +8488,8 @@ textarea.form-control {
 
 #section-counter {
   position: relative;
-  z-index: 0; }
+  z-index: 0; 
+margin-bottom: 70px;}
 
 .block-20 {
   overflow: hidden;
@@ -9316,3 +9317,48 @@ textarea.form-control {
   visibility: visible;
   opacity: 1;
 }
+
+#services{
+margin-top: 50px;
+
+}
+
+
+.featured-donate, .featured-section {
+  padding: 4em 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .featured-donate img, .featured-section img {
+    -webkit-box-shadow: 0 4px 30px -5px black;
+    box-shadow: 0 4px 30px -5px black;
+    border-radius: 7px; }
+  .featured-donate h2, .featured-section h2 {
+    color: #fff; }
+  .featured-donate p, .featured-section p {
+    color: #fff; }
+  .featured-donate .featured-text, .featured-section .featured-text {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .2em; }
+  .featured-donate .donation-time, .featured-section .donation-time {
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-style: italic;
+    font-size: 15px; }
+  .featured-donate .fund-raised, .featured-section .fund-raised {
+    font-weight: 900;
+    color: #fff; }
+  .featured-donate.overlay-color, .featured-donate.overlay-color-2, .featured-section.overlay-color, .featured-section.overlay-color-2 {
+    position: relative; }
+    .featured-donate.overlay-color:before, .featured-donate.overlay-color-2:before, .featured-section.overlay-color:before, .featured-section.overlay-color-2:before {
+      position: absolute;
+      content: "";
+      background: #28a745;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .9; }
+  .featured-donate.overlay-color-2:before, .featured-section.overlay-color-2:before {
+    background: #ca3925; }
