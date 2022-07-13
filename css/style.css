@@ -7619,8 +7619,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #ca3925;
-    border: 1px solid #ca3925;
+    background: #28a745;
+    border: 1px solid #28a745;
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #ca3925;
@@ -9362,3 +9362,111 @@ margin-top: 50px;
       opacity: .9; }
   .featured-donate.overlay-color-2:before, .featured-section.overlay-color-2:before {
     background: #ca3925; }
+
+
+
+    /*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+.features{
+  padding: 0px 16px;
+  
+}
+.features .nav-tabs {
+  border: 0;
+}
+
+.features .nav-link {
+  border: 0;
+  padding: 5px 5px;
+  color: black;
+  border: 1px solid #ca3925;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0s;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.features .nav-link i {
+  font-size: 32px;
+  line-height: 0;
+}
+
+.features .nav-link h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  color: var(--color-secondary);
+}
+
+.features .nav-link:hover {
+  background: #ca3925;
+  
+}
+
+.features .nav-link:hover h4 {
+  color: var(--color-white);
+  
+}
+.features .nav-link.active {
+  transition: 0.3s;
+  background:#ca3925;
+  border-color:#ca3925;
+  color: white;
+}
+
+.features .nav-link.active h4 {
+  color: var(--color-white);
+}
+
+.features .nav-link.active i {
+  color: var(--color-white) !important;
+}
+
+.features .tab-content {
+  margin-top: 30px;
+}
+
+.features .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.features .tab-pane h3 {
+  font-weight: 600;
+
+  color: var(--color-secondary);
+}
+
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+.features .tab-pane ul i {
+  font-size: 24px;
+  margin-right: 4px;
+  color: var(--color-primary);
+}
+
+.features .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
