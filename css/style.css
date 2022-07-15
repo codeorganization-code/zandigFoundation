@@ -9395,7 +9395,6 @@ margin-bottom: 70px;}
 .features .nav-link h4 {
   font-size: 20px;
   font-weight: 600;
-  margin: 10px 0 0;
   color: var(--color-secondary);
 }
 
@@ -9469,9 +9468,9 @@ margin-bottom: 70px;}
 
 
 #mail{
-  color: red;
+  color: #1e90ff;
 }
 
 #mail:hover{
-  color:#1e90ff;
+  color:black;
 }
